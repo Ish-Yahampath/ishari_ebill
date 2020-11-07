@@ -1,0 +1,35 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.border{
+    border-radius:25px;
+    border:2px solid;
+    padding:20px;
+    width:400px;
+    height:150px; 
+    margin:auto; 
+	border-color:#0F9B8E;
+	border-width:8px;
+	background-color:#FFE5AD;
+}
+h3{
+    text-align: center;
+	font-family:Andale Mono, monospace;
+	color:#343837;
+	
+}
+table{
+    width: 425px;
+}
+button{
+	color:#FFC513;
+	background-color:#730039
+}
+.txt2{
+	font-family:Snell Roundhand, cursive;
+}
+.bground{
+	background-color:#040348;
+	font-family:cursive;
+	color:#FDDC5C;
+}

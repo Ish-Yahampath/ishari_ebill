@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elecricity bill</title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+		
+
+    </head>
+    <body>
+	
+        <h3>Domestic Elecricity Bill</h3>
+        <div class="border">
+		
+            <table>
+                <tr colspan="4">
+                    <td align="right">No of Units Used :</td>
+                    <td align="right">
+                        <input type="number" name="units" min="0" id="units" class="bground">
+                    </td>
+                    <td align="left"><label>KWh</label></td>
+                </tr>
+
+                <tr align="Right">
+                    <td></td>
+                    <td>
+                        <button id="btnCleer" onclick="clearText()">Clear</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+					</td>
+                    <td align="right">
+						<button id="btnCal" onclick="calculateBill()">Calculate my Bill</button>
+					</td>	
+                </tr>
+
+                <tr>
+                    <td>
+						<label>Your Bill Amount is :</label>
+                    </td>
+					<td>
+						<label id="BillResult"></label>
+					</td>
+                </tr>
+                <tr>
+
+                </tr>
+            </table>
+			
+        </div>
+        <table align="center">
+            <tr>
+                <td><a href="https://ceb.lk/bill-calculation-commercial/en">More Information how my bill is calculated</a></td>
+                <td><a href="https://roar.media/english/life/reports/electricity-bill-calculated-analysis">Go to CEB web site</a></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" class="txt2">
+                    created by : Ishari Yahampath
+                </td>
+                
+            </tr>
+        </table>
+    <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>
